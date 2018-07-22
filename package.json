@@ -16,6 +16,8 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.2.0",
     "pre-commit": "^1.2.2"
   }
 }
