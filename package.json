@@ -1,0 +1,21 @@
+{
+  "name": "day03",
+  "version": "1.0.0",
+  "description": "Tiny NodeJs static Web server",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
